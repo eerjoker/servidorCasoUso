@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "servidor-envio-recordatorios",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dot-env": "^0.0.1",
+    "express": "^4.17.1",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "echo \"Error: no main specified, try npm test\" && exit 1",
+    "testCU": "node tests/testCU.js",
+    "test": "node tests/testServidor.js"
+  },
+  "author": "erivera",
+  "license": "ISC",
+  "description": ""
+}
